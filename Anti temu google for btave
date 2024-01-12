@@ -1,0 +1,8 @@
+! name: No Temu
+! description: Rerank results to remove pages from temu.
+! public: true
+! author: Goggles 101
+! avatar: #de0320
+
+$discard,site=investor.temu.com
+$discard,site=temu.de
